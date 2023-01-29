@@ -1,5 +1,5 @@
 {
-  "name": "my_precious_app",
+  "name": "soft-jobs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Juan-Lozada/My_Precious_App.git"
+    "url": "https://github.com/Juan-Lozada/soft-jobs_Backend.git"
   },
   "keywords": [],
   "author": "Juan Lozada",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Juan-Lozada/My_Precious_App/issues"
+    "url": "https://github.com/Juan-Lozada/soft-jobs_Backend.git/issues"
   },
-  "homepage": "https://github.com/Juan-Lozada/My_Precious_App#readme",
+  "homepage": "https://github.com/Juan-Lozada/soft-jobs_Backend.git",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
