@@ -2,12 +2,11 @@ const { Pool } = require('pg')
 require( 'dotenv' ).config()
 
  const credentials = {
-        user: process.env.DB_USER,
-        password: process.env.DB_PASSWORD,
-        database: process.env.DB_DATABASE,
-        host: process.env.DB_HOST,
-        dialect: process.env.DB_DIALECT,
-        port: process.env.DB_PORT,
+        host: 'postgresql-jlserverdb.alwaysdata.net',
+        user: 'jlserverdb',
+        port: 5432,
+        database: 'jlserverdb_my_precious',
+        password: 'Juan19051999',
         allowExitOnIdle: true
 
 }
