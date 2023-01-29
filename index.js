@@ -1,14 +1,13 @@
-require('dotenv').config()
-const express = require('express')
+const express = require('express');
 const cors = require('cors')
-const app = express()
-const indexRoute = require('./src/indexRoute/indexRoute')
-const PORT = process.env.DB_PORT || 3000
+const PORT = process.env.DB_PORT || 3000;
+const indexRoute = require('./src/indexRoute/indexRoute');
 
-app.use(cors())
-app.use(express.json())
-app.use(express.static('public'))
+const app = express();
 
-app.use('/', indexRoute)
-app.listen(PORT, `El servidor esta encendio en el puerto: ${PORT}` )
+app.use(cors());
+
+app.use('/', indexRoute )
+
+app.listen(PORT, console.log(`SERVIDOR ENCENDIDO PUERTO: ${PORT}`))
 
