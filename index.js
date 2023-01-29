@@ -11,5 +11,5 @@ app.use(express.json())
 app.use(express.static('public'))
 
 app.use('/', indexRoute)
-app.listen(PORT, console.log(`SERVIDOR ENCENDIDO PUERTO: ${PORT}`))
+app.listen(PORT, console.log('SERVIDOR ENCENDIDO PUERTO:' + PORT))
 
