@@ -1,6 +1,5 @@
 const { Pool } = require('pg')
 require( 'dotenv' ).config()
-
  const credentials = {
         host: 'postgresql-jlserverdb.alwaysdata.net',
         user: 'jlserverdb',
@@ -10,7 +9,6 @@ require( 'dotenv' ).config()
         allowExitOnIdle: true
 
 }
-
 const pool = new Pool(credentials)
 
 module.exports = pool
