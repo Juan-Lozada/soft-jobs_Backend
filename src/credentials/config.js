@@ -4,7 +4,7 @@ require( 'dotenv' ).config()
         host: 'postgresql-jlserverdb.alwaysdata.net',
         user: 'jlserverdb',
         port: 5432,
-        database: 'jlserverdb_my_precious',
+        database: 'jlserverdb_softjobs',
         password: 'Juan19051999',
         allowExitOnIdle: true
 
